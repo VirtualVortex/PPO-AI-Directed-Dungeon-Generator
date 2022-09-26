@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2162786354362063638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162786354362063720}
+  - component: {fileID: 2162786354362063639}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162786354362063720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162786354362063638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -28.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2162786354362063639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162786354362063638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6626a6e366a9c48a48525cde4050d0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Seed: 0
+  SectionContainer: {fileID: 0}
+  MaxLevelSize: 50
+  MaxAllowedOrder: 12
+  Sections:
+  - {fileID: 6451486032091492629, guid: 1d72104ba0b03e94eb5e51d5edce8d47, type: 3}
+  - {fileID: 3115026420199777967, guid: 3b58fb7b170499a47a579b0a67748357, type: 3}
+  - {fileID: 3115026420199777967, guid: 7759a5bd819e9764ead776c4919d62ff, type: 3}
+  - {fileID: 3115026420199777967, guid: 56e4425b6072e6a4a98886cdc307a466, type: 3}
+  - {fileID: 3115026420199777967, guid: e54ed93af7a96964eb1c0698bf5c94c2, type: 3}
+  - {fileID: 3115026420199777967, guid: 46a7bcc60419f584db4d34a37b080be4, type: 3}
+  - {fileID: 3115026420199777967, guid: f7767d20a269fb544a364db8c2b191ee, type: 3}
+  - {fileID: 3115026420199777967, guid: 056f48ab199856041a93ad241885744b, type: 3}
+  - {fileID: 3115026420199777967, guid: a41769acdd0d2cc4595b6c0728c72611, type: 3}
+  - {fileID: 3115026420199777967, guid: 7f005bb900eee9e4c9488fd2e6685939, type: 3}
+  DeadEnds:
+  - {fileID: 194875506917392165, guid: d07053b624078fd4998bb5c13ef4efcb, type: 3}
+  InitialSectionTags:
+  - central
+  SpecialRules: []
