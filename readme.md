@@ -1,4 +1,4 @@
-### GAM705 - PPO AI directed dungeon crawler ### 
+### MSc Major project - PPO AI directed dungeon crawler ### 
 
 This repository has been pre-configured with a .gitignore and .gitattributes file specific to Unity projects using git-lfs. 
 
