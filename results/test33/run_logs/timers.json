@@ -1,0 +1,49 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1655910686",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\University\\Masters\\GAM705\\Assignments\\Artefact repo\\GAM705_Artefact_Repo\\venv\\Scripts\\mlagents-learn --resume --run-id=test33",
+        "mlagents_version": "0.22.0",
+        "mlagents_envs_version": "0.22.0",
+        "communication_protocol_version": "1.2.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1655910695"
+    },
+    "total": 8.4870781,
+    "count": 1,
+    "self": 0.11222719999999953,
+    "children": {
+        "run_training.setup": {
+            "total": 0.021280400000000088,
+            "count": 1,
+            "self": 0.021280400000000088
+        },
+        "TrainerController.start_learning": {
+            "total": 8.3535705,
+            "count": 1,
+            "self": 0.00011960000000144078,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.947959099999999,
+                    "count": 1,
+                    "self": 7.947959099999999
+                },
+                "TrainerController._save_models": {
+                    "total": 0.40549180000000007,
+                    "count": 1,
+                    "self": 0.011473799999999201,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.39401800000000087,
+                            "count": 1,
+                            "self": 0.39401800000000087
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

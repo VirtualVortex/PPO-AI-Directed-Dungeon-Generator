@@ -1,0 +1,30 @@
+{
+    "MaintainFlow": {
+        "checkpoints": [
+            {
+                "steps": 499996,
+                "file_path": "results\\test44\\MaintainFlow\\MaintainFlow-499996.onnx",
+                "reward": 0.3325428051768083,
+                "creation_time": 1658137895.3619757
+            },
+            {
+                "steps": 500052,
+                "file_path": "results\\test44\\MaintainFlow\\MaintainFlow-500052.onnx",
+                "reward": 0.3337742057563246,
+                "creation_time": 1658137895.4772313
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500052,
+            "file_path": "results\\test44\\MaintainFlow.onnx",
+            "reward": 0.3337742057563246,
+            "creation_time": 1658137895.4772313
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}

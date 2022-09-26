@@ -1,0 +1,48 @@
+{
+    "MaintainFlow": {
+        "checkpoints": [
+            {
+                "steps": 156048,
+                "file_path": "results\\test25\\MaintainFlow\\MaintainFlow-156048.onnx",
+                "reward": 0.0,
+                "creation_time": 1655903235.9666467
+            },
+            {
+                "steps": 295248,
+                "file_path": "results\\test25\\MaintainFlow\\MaintainFlow-295248.onnx",
+                "reward": -59.19999885559082,
+                "creation_time": 1655903414.2182715
+            },
+            {
+                "steps": 318384,
+                "file_path": "results\\test25\\MaintainFlow\\MaintainFlow-318384.onnx",
+                "reward": -56.799997210502625,
+                "creation_time": 1655903459.1797159
+            },
+            {
+                "steps": 343152,
+                "file_path": "results\\test25\\MaintainFlow\\MaintainFlow-343152.onnx",
+                "reward": -47.99999964237213,
+                "creation_time": 1655903541.929717
+            },
+            {
+                "steps": 360720,
+                "file_path": "results\\test25\\MaintainFlow\\MaintainFlow-360720.onnx",
+                "reward": -11.999999910593033,
+                "creation_time": 1655903586.6763892
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 360720,
+            "file_path": "results\\test25\\MaintainFlow.onnx",
+            "reward": -11.999999910593033,
+            "creation_time": 1655903586.6763892
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}
